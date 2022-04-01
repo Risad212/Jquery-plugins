@@ -1,0 +1,22 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+img{
+    width: 600px;
+    height: 300px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+li{
+ margin-right: 10px;
+ font-size: 25px;
+ background: rgb(138, 138, 79);
+ color: white;
+ padding: 15px;
+}

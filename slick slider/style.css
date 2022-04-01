@@ -1,0 +1,13 @@
+
+body{
+    overflow: hidden;
+}
+.all{
+    display: flex;
+}
+
+.all img{
+    width: 400px;
+    height: 400px;
+    margin-right: 10px;
+}

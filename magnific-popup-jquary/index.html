@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- popup css -->
+    <link rel="stylesheet" href="magnific-popup.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <div class="container">
+  
+        <h1>Simple Image Gallery with magnific-popup.js</h1>
+        
+              <p><section class="img-gallery-magnific">
+                  <div class="magnific-img">
+                      <a class="image" href="img1.jpg" title="9.jpg">
+                          <img src="img1.jpg" alt="9.jpg" />
+                          <i class="fa fa-search-plus" aria-hidden="true"></i>
+                      </a>
+                  </div>
+                  <div class="magnific-img">
+                      <a class="image" href="img2.jpg" title="10.jpg">
+                          <img src="img2.jpg" alt="10.jpg" />
+                          <i class="fa fa-search-plus" aria-hidden="true"></i>
+                      </a>
+                  </div>
+                  <div class="magnific-img">
+                      <a class="image" href="img3.jpg" title="3.jpg">
+                          <img src="img3.jpg" alt="3.jpg" />
+                          <i class="fa fa-search-plus" aria-hidden="true"></i>
+                      </a>
+                  </div>
+                  <div class="magnific-img">
+                      <a class="image" href="img4.jpg" title="4.jpg">
+                          <img src="img4.jpg" alt="4.jpg" />
+                          <i class="fa fa-search-plus" aria-hidden="true"></i>
+                      </a>
+                  </div>
+                  <div class="magnific-img">
+                      <a class="image" href="img1.jpg" title="1.jpg">
+                          <img src="img1.jpg" alt="1.jpg" />
+                          <i class="fa fa-search-plus" aria-hidden="true"></i>
+                      </a>
+                  </div>
+                  <div class="magnific-img">
+                      <a class="image" href="img2.jpg" title="2.jpg">
+                          <img src="img2.jpg" alt="2.jpg" />
+                          <i class="fa fa-search-plus" aria-hidden="true"></i>
+                      </a>
+                  </div>
+              </section>
+          </p>
+      
+      </div>
+
+
+
+
+<!-- js file -->
+<script src="jquery-3.6.0.min.js"></script>
+<script src="jquery.magnific-popup.js"></script>
+<script>
+    $('.image').magnificPopup({
+        type:'image',
+        gallery:{
+        enabled:true
+  }
+    });
+</script>
+</body>
+</html>
